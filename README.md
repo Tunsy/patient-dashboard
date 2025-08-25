@@ -29,8 +29,8 @@ Follow these instructions to get the project running on your local machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone git@github.com:Tunsy/patient-dashboard.git
+    cd patient-dashboard
     ```
 
 2.  **Backend Setup:**
@@ -56,7 +56,7 @@ Follow these instructions to get the project running on your local machine.
 3.  **Frontend Setup:**
 
     ```bash
-    # Navigate to the frontend directory from the project root
+    # Navigate to the frontend directory
     cd frontend
 
     # Install dependencies
@@ -65,9 +65,7 @@ Follow these instructions to get the project running on your local machine.
 
 ### Running the Application
 
-You'll need two separate terminals to run both the frontend and backend servers.
-
-  * **Terminal 1: Start the Backend**
+  * **Start the Backend**
 
     ```bash
     # Navigate to the backend directory
@@ -82,7 +80,7 @@ You'll need two separate terminals to run both the frontend and backend servers.
 
     The backend API will be running at `http://localhost:8000`.
 
-  * **Terminal 2: Start the Frontend**
+  * **Start the Frontend**
 
     ```bash
     # Navigate to the frontend directory
