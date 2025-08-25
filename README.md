@@ -20,10 +20,6 @@ This is a full-stack web application that displays a dashboard for patients and 
 
 -----
 
-## Getting Started
-
-Follow these instructions to get the project running on your local machine.
-
 ### Installation & Setup
 
 1.  **Clone the repository:**
@@ -71,10 +67,7 @@ Follow these instructions to get the project running on your local machine.
     # Navigate to the backend directory
     cd backend
 
-    # Activate the virtual environment
-    source backend/venv/bin/activate
-
-    # Run the server from the root directory as a module
+    # Run the server
     uvicorn backend.main:app --reload
     ```
 
@@ -86,7 +79,7 @@ Follow these instructions to get the project running on your local machine.
     # Navigate to the frontend directory
     cd frontend
 
-    # Run the development server
+    # Run the server
     npm run dev
     ```
 
